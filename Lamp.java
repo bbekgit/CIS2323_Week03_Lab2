@@ -6,6 +6,22 @@ public class Lamp{
 	String color;
 	int watts;
 	
+	public String showStatus(){
+		return " Light is " + isOn() + "is"
+		+ " is color " + color + "\n"
+		+ " and is " + watts + "watts";
+	}
+	
+	public String isOn(){
+		if (isOn){
+			return "OFF";
+		}else{
+			return "OFF";
+		}
+			
+		
+	}
+	
 	// Object Methods
 	public void turnOn(){
 		isOn = true;
